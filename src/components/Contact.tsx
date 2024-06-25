@@ -38,6 +38,7 @@ const FormInput = styled.input`
 const FormTextArea = styled.textarea`
     width: 70%;
     padding: 5px;
+    height:100px;
 `;
 const FormButton = styled.button`
     width:100px;
