@@ -13,19 +13,19 @@ const Blog = () => {
       {
         title: 'Blog Post 1',
         excerpt: 'This is a short description of blog post 1.',
-        thumbnail: '../../public/blogPic.jpg',
+        thumbnail: '/blogPic.jpg',
         link: 'https://example.com/blog1'
       },
       {
         title: 'Blog Post 2',
         excerpt: 'This is a short description of blog post 2.',
-        thumbnail: '../../public/blogPic.jpg',
+        thumbnail: '/blogPic.jpg',
         link: 'https://example.com/blog2'
       },
       {
         title: 'Blog Post 3',
         excerpt: 'This is a short description of blog post 3.',
-        thumbnail: '../../public/blogPic.jpg',
+        thumbnail: '/blogPic.jpg',
         link: 'https://example.com/blog3'
       }
     ];

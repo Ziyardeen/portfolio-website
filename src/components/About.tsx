@@ -29,7 +29,7 @@ const About = () => {
       <AboutSection  id="about" className="about">
         <AboutTitle>About Me</AboutTitle>
         <Container className="profile">
-          <ProfilePic src="../../public/website-profile-pic.png" alt="Profile" />
+          <ProfilePic src="/website-profile-pic.png" alt="Profile" />
           <Container className="bio">
             <AboutHeading >Introduction</AboutHeading >
             <Paragragh>

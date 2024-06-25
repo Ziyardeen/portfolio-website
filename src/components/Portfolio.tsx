@@ -11,19 +11,19 @@ const Portfolio = () => {
         {
           title: 'Project 1',
           description: 'Description of Project 1',
-          image: '../../public/project.jpg',
+          image: '/project.jpg',
           link: 'https://example.com/project1'
         },
         {
           title: 'Project 2',
           description: 'Description of Project 2',
-          image: '../../public/project.jpg',
+          image: '/project.jpg',
           link: 'https://example.com/project2'
         },
         {
           title: 'Project 3',
           description: 'Description of Project 3',
-          image: '../../public/project.jpg',
+          image: '/project.jpg',
           link: 'https://example.com/project3'
         }
       ];
