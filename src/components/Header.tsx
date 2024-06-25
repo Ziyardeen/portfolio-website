@@ -73,7 +73,7 @@ const NavLink = styled.a`
 const Header = () => {
   return (
     <HeaderContainer>
-        <Logo src='../../public/ziyaditron-logo/svg/logo-no-background.svg'/>
+        <Logo src='/ziyaditron-logo/svg/logo-no-background.svg'/>
         <Nav>
             <NavLink href="#home">Home</NavLink>
             <NavLink href="#about">About</NavLink>
