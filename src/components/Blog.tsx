@@ -21,7 +21,6 @@ box-shadow:0 4px 8px rgba(0,0,0,0.1);
 &:hover{
   box-shadow:0 4px 28px rgb(8, 249, 4);
 }
-  
 `
 const BlogPostsContainer = styled.div`
 display:grid;

@@ -7,6 +7,8 @@ width:100%;
   background-color: lightcoral;
 `
 const ProjectsDiv = styled.div`
+padding-right:10px;
+margin-right:10px;
   display:grid;
  grid-template-columns:repeat(3,1fr);
 `
