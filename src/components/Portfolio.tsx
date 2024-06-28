@@ -42,30 +42,23 @@ transition:ease-in-out, 0.2s;
 const Portfolio = () => {
     const projects = [
         {
-          title: 'Project 1',
-          description: 'Description of Project 1',
-          image: '/project.jpg',
-          link: 'https://example.com/project1'
+          title: 'Ziyavidend',
+          description: ' It analyses your stock portfolio, estimates your remaining yearly dividend payment for each stock, provides a total dividend estimation and generates detailed financial reports for each dividend stock using the Gemini API.',
+          image: '../components/../../public/projects/ziyavidend.png',
+          link: 'https://ziyaditron.netlify.app'
         },
         {
-          title: 'Project 2',
-          description: 'Description of Project 2',
-          image: '/project.jpg',
-          link: 'https://example.com/project2'
+          title: 'nc-News-FullStack-App',
+          description: 'It allows users to select a username, view news articles, upvote or downvote articles, comment on articles, and delete comments they have posted.',
+          image: '../components/../../public/projects/nc-news-fullStack.png',
+          link: 'https://ziyncnews.netlify.app'
         },
         {
-          title: 'Project 3',
-          description: 'Description of Project 3',
-          image: '/project.jpg',
-          link: 'https://example.com/project3'
+          title: 'cryptoPhetch',
+          description: "It is a simple web app that gets a cryptocurrency's price by receiving its name.",
+          image: '../components/../../public/projects/cryptoPhetch.png',
+          link: 'https://crypto-phetch.netlify.app'
         },
-        {
-          title: 'Project 3',
-          description: 'Description of Project 3',
-          image: '/project.jpg',
-          link: 'https://example.com/project3'
-        },
-       
       ];
 
     return (
