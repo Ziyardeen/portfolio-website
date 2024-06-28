@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+import ziyavidendImg from '../../public/projects/ziyavidend.png';
+import ziynewsImg from '../../public/projects/nc-news-fullStack.png';
+import cryptoPhetchImg from '../../public/projects/cryptoPhetch.png';
+
 const PortfolioSection = styled.section`
   display:flex;
   flex-direction:column;
@@ -44,19 +48,19 @@ const Portfolio = () => {
         {
           title: 'Ziyavidend',
           description: ' It analyses your stock portfolio, estimates your remaining yearly dividend payment for each stock, provides a total dividend estimation and generates detailed financial reports for each dividend stock using the Gemini API.',
-          image: '../components/../../public/projects/ziyavidend.png',
+          image: ziyavidendImg,
           link: 'https://ziyaditron.netlify.app'
         },
         {
           title: 'nc-News-FullStack-App',
           description: 'It allows users to select a username, view news articles, upvote or downvote articles, comment on articles, and delete comments they have posted.',
-          image: '../components/../../public/projects/nc-news-fullStack.png',
+          image: ziynewsImg,
           link: 'https://ziyncnews.netlify.app'
         },
         {
           title: 'cryptoPhetch',
           description: "It is a simple web app that gets a cryptocurrency's price by receiving its name.",
-          image: '../components/../../public/projects/cryptoPhetch.png',
+          image:cryptoPhetchImg,
           link: 'https://crypto-phetch.netlify.app'
         },
       ];
