@@ -3,33 +3,47 @@ import { styled } from "styled-components";
 const BlogSection = styled.section`
   display:flex;
   flex-direction:column;
-  justify-content:center;
 `
 const BlogImage = styled.img`
-margin:2px;
-width:100%;
+width:150px;
+@media (max-width: 550px) {
+  width:100px
+}
 
 `
 const BlogPostHeading = styled.h2`
+  width:100%;
   background-color: lightcoral;
 `
 const BlogPostDiv = styled.div`
-padding:40px;
-margin:20px;
-box-shadow:0 4px 8px rgba(0,0,0,0.1);
-
+border-top:2px solid rgba(0,0,0, 0.2);
+border-radius:3px;
+  padding:5px 5px;
+  margin:20px;
+  box-shadow:0 8px 9px black;
+  transition:ease-in 0.5ms;
 &:hover{
-  box-shadow:0 4px 28px rgb(8, 249, 4);
+
+  box-shadow:0 8px 9px lightgreen;
 }
+@media (max-width: 550px) {
+  width:250px;
+  height:350px;
+}
+
 `
 const BlogPostsContainer = styled.div`
-display:grid;
-grid-template-columns:repeat(3, 1fr);
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  @media (max-width: 550px) {
+  display:flex;
+  flex-direction:column;
+}
 `
 
 
 const BlogDescriptionDiv = styled.div`
-  width:90%;
+
 `
 const Blog = () => {
     const blogPosts = [

@@ -1,16 +1,28 @@
 import styled from "styled-components";
+
+const PortfolioSection = styled.section`
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+`
 const ProjectImage = styled.img`
 width:100%;
 `
 const PortfolioHeading = styled.h2`
 width:100%;
-  background-color: lightcoral;
+background-color: lightcoral;
 `
 const ProjectsDiv = styled.div`
 padding-right:10px;
 margin-right:10px;
   display:grid;
  grid-template-columns:repeat(3,1fr);
+
+ @media (max-width:550px){
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+ }
 `
 
 const ProjectThumbnail = styled.div`
@@ -22,6 +34,10 @@ transition:ease-in-out, 0.2s;
    &:hover{
     box-shadow: 0 4px 8px rgb(44, 4, 247);
    }
+
+  @media (max-width:550px){
+  width:200px;
+ }
 `
 const Portfolio = () => {
     const projects = [
@@ -53,7 +69,7 @@ const Portfolio = () => {
       ];
 
     return (
-      <section id="portfolio" className="portfolio">
+      <PortfolioSection id="portfolio" className="portfolio">
         <PortfolioHeading>Portfolio</PortfolioHeading>
         <ProjectsDiv className="projects">
           {projects.map((project, index) => (
@@ -67,7 +83,7 @@ const Portfolio = () => {
             </ProjectThumbnail>
           ))}
         </ProjectsDiv>
-      </section>
+      </PortfolioSection>
     );
   }
   
