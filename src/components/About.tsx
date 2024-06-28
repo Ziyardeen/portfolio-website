@@ -41,10 +41,7 @@ const About = () => {
             </Paragragh>
             <AboutHeading >Interests</AboutHeading >
             <Paragragh>
-            When I'm not coding, you can find me:<br />
-            <strong>Gaming:</strong> Engaging in games like Fallout and Call of Duty Mobile, which help me stay analytical and entertained. <br />
-            <strong>Reading:</strong> Exploring self-help books on finance to gain new ideas and manage my finances better, with recent reads like "Money" by Laura Whateley.<br />
-            <strong>Stock Market Analysis:</strong> Conducting technical and fundamental analysis of stocks to make informed investment decisions, particularly in companies like Alphabet, Meta, and Amazon.<br />
+            When not coding, I enjoy gaming for analytical engagement with titles like Fallout and Call of Duty Mobile, and reading finance-focused self-help books such as "Money" by Laura Whateley to improve my financial management
             </Paragragh>
           </Container>
         </Container>
