@@ -2,10 +2,12 @@ import styled from "styled-components";
     const AboutTitle = styled.h2`
     width:100%;
     background-color: lightcoral;
-    color:black;
+   
+    color: var(--text-color);
     `
     const AboutHeading = styled.h3`
-        color:black;
+       
+        color: var(--text-color);
     `
     const ProfilePic = styled.img`
         width:60%;
@@ -13,7 +15,9 @@ import styled from "styled-components";
        
     `
     const Paragragh = styled.p`
-        color:black;
+
+    color: var(--text-color);
+      
     `
 
     const Container = styled.div`
@@ -22,8 +26,14 @@ import styled from "styled-components";
     const AboutSection = styled.section`
        
        width:70%;
+
+      
     `
+
 const About = () => {
+
+
+  
 
     return (
       <AboutSection  id="about" className="about">

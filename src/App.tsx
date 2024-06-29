@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import './App.css';
 import styled from 'styled-components';
 
+
 const RootDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -55,6 +56,7 @@ const Profession = styled.h1`
 `
 
 const App = () => {
+
   return (
     <RootDiv className="app">
       <Header />

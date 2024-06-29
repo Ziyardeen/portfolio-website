@@ -31,7 +31,8 @@ margin-right:10px;
 
 const ProjectThumbnail = styled.div`
 margin:0 0 5px 5px;
-background-color:white;
+background-color: var(--background-color);
+
 transition:ease-in-out, 0.2s;
    padding: 10px;
    box-shadow: 0 4px 8px rgba(0,0,0,0.1);

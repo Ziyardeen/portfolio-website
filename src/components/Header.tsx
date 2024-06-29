@@ -1,5 +1,6 @@
 
 import styled from 'styled-components'
+import DarkmodeBtn from './DarkmodeBtn'
 
 const Logo = styled.img`
 width:20%;
@@ -44,28 +45,15 @@ const Nav = styled.nav`
    
 `
 
-const DarkBtn = styled.button`
-    background-color: #d6f7d6;
-    width:100px;
-    height:50px;
-    text-align:center;
-    margin:0 20px;
 
-    &:hover{
-        background-color: white;
-    }
-
-    @media (max-width: 768px) {
-    margin:20px 0;
-  }
-`
 
 const NavLink = styled.a`
     color:black;
     margin:5px;
     
     &:hover{
-        background-color: white;
+      
+    color: var(--text-color);
     }
     
 `
@@ -81,7 +69,7 @@ const Header = () => {
             <NavLink href="#blog">Blog</NavLink>
             <NavLink href="#contact">Contact</NavLink>
         </Nav>
-        <DarkBtn className='dark-mode'>Dark Mode</DarkBtn>
+        <DarkmodeBtn />
     </HeaderContainer>
   )
 }

@@ -36,7 +36,8 @@ const ListItem = styled.li`
 `;
 
 const Link = styled.a`
-  color: #fff;
+
+  color: var(--text-color);
   text-decoration: none;
 
   &:hover {
@@ -50,7 +51,7 @@ const FooterBottom = styled.div`
 `;
 
 const IconLink = styled.a`
-  color: #fff;
+  color: var(--text-color);
   font-size: 24px;
   margin: 0 10px;
 
